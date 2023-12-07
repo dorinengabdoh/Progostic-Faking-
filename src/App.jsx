@@ -11,6 +11,7 @@ function App() {
     <div className="mainDiv">
     {jsonData.map(item => (
           <div key={item.clubs}>
+            
             {item.clubs.name}
           </div>
         ))}
